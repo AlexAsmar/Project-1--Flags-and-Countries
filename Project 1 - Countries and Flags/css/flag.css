@@ -1,0 +1,40 @@
+body {
+    background-image: url("../images/flag.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: "Gotham", Arial, sans-serif;
+}
+
+.flags {
+    display: block;
+    margin-top: 10px;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 10px;
+}
